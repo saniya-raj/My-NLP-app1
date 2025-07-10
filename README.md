@@ -1,43 +1,54 @@
-🧠 My NLP App – Interactive NLP Web App with Streamlit
-Welcome to My NLP App, an elegant, lightweight, and powerful Natural Language Processing application built with Streamlit. This app delivers real-time NLP tasks using locally hosted models—ensuring efficiency, privacy, and seamless performance without external APIs.
+# 🧠 My NLP App
 
-🚀 Key Features
-🔐 User Authentication
-Secure login and registration system with hashed passwords.
+**Interactive NLP Web App built with Streamlit**
 
-🧠 Named Entity Recognition (NER)
-Detect and highlight entities (people, places, organizations) in text.
+Welcome to **My NLP App**, an elegant, lightweight, and powerful Natural Language Processing application built using Streamlit. This app delivers real-time NLP tasks using locally hosted models — ensuring efficiency, privacy, and smooth performance without external APIs.
 
-📊 Sentiment Analysis
-Classify text sentiment as positive, negative, or neutral using local models.
+---
 
-🎭 Emotion Detection
-Understand deeper emotions in user input such as joy, anger, sadness, and more.
+## 🚀 Features
 
+- 🔐 **User Authentication**  
+  Secure login and registration system with hashed password storage.
 
-🛠️ Tech Stack
-Frontend & UI: Streamlit + Custom CSS
+- 🧠 **Named Entity Recognition (NER)**  
+  Detect and highlight named entities (like people, places, organizations) in the input text.
 
-Backend & Logic: Python, Transformers, Torch
+- 📊 **Sentiment Analysis**  
+  Analyze whether a sentence expresses **positive**, **negative**, or **neutral** sentiment using local models.
 
-Authentication: JSON-based user storage with secure password hashing
+- 🎭 **Emotion Detection**  
+  Recognize emotions such as **joy**, **anger**, **sadness**, and more from text.
 
-Deployment Ready: Ideal for platforms like Streamlit Cloud, Render, or local hosting
+- 💻 **Streamlit UI**  
+  A clean and beautiful frontend, styled with custom CSS .
 
-📦 Installation & Running the App
-bash
-Copy
-Edit
-# Clone the repository
-git clone https://github.com/your-username/your-nlp-app.git
-cd your-nlp-app
+- ⚡ **Local Models**  
+  No API tokens needed — all models are run locally for maximum privacy and speed.
 
-# Install dependencies
+---
+
+## 🧰 Tech Stack
+
+- **Frontend & UI**: Streamlit + Custom CSS  
+- **Backend & Logic**: Python, Hugging Face Transformers, Torch  
+- **Authentication**: JSON-based user storage with password hashing  
+- **Deployment Ready**: Suitable for Streamlit Cloud, Render, or local servers
+
+---
+
+## 📦 Installation & Running
+
+```bash
+# Step 1: Clone the repository
+git clone https://github.com/saniya-raj/My-NLP-app1.git
+cd My-NLP-app1
+
+# Step 2: Install dependencies
 pip install -r requirements.txt
 
-# Run the app
+# Step 3: Run the Streamlit app
 streamlit run app.py
-
 
 📁 Project Structure
 markdown
