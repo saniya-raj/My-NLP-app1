@@ -14,4 +14,4 @@ This is a beautiful and interactive NLP app built using **Streamlit**. It suppor
 ## How to Run
 ```bash
 pip install -r requirements.txt
-streamlit run login.py
+streamlit run app.py
